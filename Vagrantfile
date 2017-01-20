@@ -13,7 +13,7 @@ $baseScript = <<SCRIPT
 		echo "Installing required graphical libraries for Electron"
 		apt-get install -y libgtk2.0-0
 		apt-get install -y libxss1
-	  apt-get install -y GConf2
+	  	apt-get install -y GConf2
 		apt-get install -y libnss3
 		# apt-get install -y libcanberra-gtk*
 SCRIPT
